@@ -1,0 +1,17 @@
+openapi: 3.0.0
+info:
+  title: 'API OnFlay'
+  contact:
+    email: everlansoouza@gmail.com
+  version: '0.1'
+servers:
+  -
+    url: 'https://localhost:8000/api/'
+    description: 'Learning env'
+paths:
+  /api/users:
+    get:
+      operationId: 307c8a7a0195c62e62f89295f6178855
+      responses:
+        '200':
+          description: 'An example endpoint'
